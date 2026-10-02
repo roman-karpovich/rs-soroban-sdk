@@ -1,4 +1,13 @@
 # rs-soroban-sdk
+
+> **Temporary fork for [Kanatoko](https://github.com/roman-karpovich/kanatoko).**
+> Branch `kanatoko-p29` (tag `v29.0.0-kanatoko.1`) is upstream `v28.0.0` with
+> the `soroban-env-*` crates moved to the published 29.0.0 release, so Kanatoko
+> can run on Protocol 29 before an official `soroban-sdk` 29 exists. It is not
+> published to crates.io and will be dropped once the official `soroban-sdk` 29
+> ships. Use the official [stellar/rs-soroban-sdk](https://github.com/stellar/rs-soroban-sdk)
+> for anything else.
+
 Rust SDK for building contracts that can be deployed on the [Stellar] network and execute in the [Soroban] runtime.
 
 Rust Docs: https://docs.rs/soroban-sdk
